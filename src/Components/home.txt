@@ -1,0 +1,12 @@
+steps on creating a react app
+npx create-react-app (Name of the app)
+
+
+creating the Components
+Know how the JSX file works
+Know how to use the Hooks->useState
+                         ->useEffect
+How to use Events
+Know how to use the PROPS
+How to use Conditions
+

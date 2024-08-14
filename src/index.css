@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.card1{
+  align-items: center;
+  
+}
+
+.card{
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+  padding: 40px;
+  margin: 30px;
+  text-align: right;
+  max-width: 250px;
+  display: inline-block;
+  align-items: left;
+  justify-content: left;
+  color: blanchedalmond;
+}
+
+.card .card-image{
+  max-width: 20%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  align-items: left;
+  justify-content: left;
+
+}
+
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* index.css */
+
+
+.col1{
+  background-color: #f0f0f0; /* Add background color */
+  padding-left: 10px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  flex: 1; /* Distribute space evenly among columns */
+  margin: 5px; /* Add margin between columns */
+  justify-content: left;
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.container {
+  margin: 0 auto; /* Center the container horizontally */
+  width: 50%; /* Set the width of the container */
+}
+
+.row {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly in the row */
+}
+
+.col {
+  background-color: #f0f0f0; /* Add background color */
+  padding: 10px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  flex: 1; /* Distribute space evenly among columns */
+  margin: 5px; /* Add margin between columns */
+}
+
+
+
+.serve{
+  background-color: #658AAB;
+}
+
+.serve h1{
+  text-align: center;
+}
+
+.serve .serve-card{
+  align-items: center;
+  padding-left: 3%;
+  display: flex;
+ }
+
+
+
+
+
+/* .home .img2{
+  align-items: right;
+  justify-items: end;
+  padding: 40px;
+  float: right;
+} */
+
+.svg1{
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  /* margin-left: 10px; */
+} 
+
+
+.wrapper{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('./Components/Assets/Innovation.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.serve{
+  background-color: #72e0ec;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(13 18 36);
+  padding: 1rem;
+}
+
+.navbar-brand a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navbar-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  margin-left: 1rem;
+}
+
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.navbar-item a:hover {
+  background-color: #555;
+}
+
+
+  .button1{
+    background-color: aquamarine;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    margin-left: 16px;
+    width: 100px;
+    height: 50px;
+    /* margin-left: auto; */
+  }
+
+
+  .asset1{
+   width: 50vh;
+  height: 50vh;
+  justify-content: center;
+  padding-left: 10%;
+  display: flex;
+  }
+
+  .text1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .text1 span{
+    color: #f1356d;
+  }
+
+  .flex{
+    display: flex;
+    font-size: 30px;
+    /* align-content: left; */
+    flex-direction: column;
+    display: flex;
+    flex-basis: 30%;
+  }
+
+  .pic{
+    width: 50vh;
+  height: 50vh;
+  /* justify-content: left; */
+  padding-right: 10%;
+  /* flex-direction: row; */
+  display: flex;
+  padding-top: 5%;
+  }
+
+  .flex1{
+    border: 2px solid hsl(0, 0%, 0%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+    padding: 40px;
+    margin: 30px;
+    text-align: right;
+    max-width: 250px;
+    display: inline-block;
+    align-items: left;
+    justify-content: left;
+    color: rgb(7, 7, 6);
+  
+  }
+
+
+  /* Home Page */
+
+.home3{
+  display: flex;
+}
+
+
+
+.home{
+  font-size: 30px;
+  align-content: left;
+  flex-direction: column;
+  /* display: flex; */
+  flex-basis: 50%;
+}
+
+.home3 h2{
+  font-size: 30px;
+}
+
+.logo{
+  width: 50vh;
+  height: 50vh;
+  justify-content: center;
+  padding-right: 10%;
+  flex-direction: row;
+  display: flex;
+  padding-top: 5%;
+  
+  }
+
+  /* project */
+  .home31{
+    display: flex;
+    padding-bottom: 5%;
+  }
+  
+  
+  
+  .home11{
+    font-size: 20px;
+    align-content: right;
+    flex-direction: column;
+    /* display: flex; */
+    flex-basis: 50%;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 10%;
+
+  }
+  
+  .logo1{
+    width: 50vh;
+    height: 50vh;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    flex-basis: 50%;
+    }
+
+    .foot{
+      display: flex;
+      background-color: #72e0ec;
+    }
+
+    .foot1{
+   
+      flex-basis: 50%;
+    }
+    .foot2{
+      
+      flex-basis: 50%;
+      padding-left: 50%;
+    }
+
+    .button3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 5%;
+    }
+    
+
+    /* add course */
+
+    .add{
+      width: 400px;
+      background: transparent;
+      border: 2px solid rgba(255, 255, 255, .2);
+      backdrop-filter: blur(30px);
+      box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+      color: #464040;
+      border-radius: 5px;
+      padding: 30px 40px;
+      align-items: center;
+      display: grid;
+    }
+
+    .box1{
+      width: 50%;
+      height: 100%;
+      border: 2px solid rgba(255, 255, 255, .2);
+      border-radius: 5px;
+      font-size: 16px;
+      color: #000000;
+      padding: 20px 25px 20px 20px;
+    }
+
+    .add .box1{
+      position: relative;
+      align-content: center;
+      width: 100%;    
+  }
+
+  .box1 input{
+    border: 5px solid rgba(255, 255, 255, .2);
+    border-radius: 5px;
+    align-items: center;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 25px 20px 20px;   
+    align-self: center;
+}
+
+.form{
+  align-items: center;
+}
+
+.box3{
+  resize: vertical;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
